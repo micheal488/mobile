@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 35px;
+    /* margin: 4%; */
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    text-align: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+.hamburger{
+    /* display: none; */
+}
+.ime{
+    height: 30px;
+    /* width: 10%; */
+}
+.ime img{
+    height: 100%;
+}
+.header1{
+    height: 30px;
+    width: 70%;
+}
+.header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 50px;
+    background-color: white;
+}
+.header2{
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    display: flex;
+    /* width: 30%; */
+}
+.header2 button{
+    padding: 5px;
+    color: white;
+    height: 30px;
+    margin-left: 10px;
+    background-color: green;
+    border: none;
+}
+.header2 img{
+    width: 15px;
+    margin: 10px;
+}
+.video{
+    width: 40%;
+    margin-left: 5%;
+    text-align: left;
+}
+.vid{
+    display: flex;
+    background-image: url(../images/php-marquee-starter-lg-bg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    align-items: center;
+}
+.video h1{
+    font-size: 70px;
+}
+.video aside{
+ color: rgb(84, 124, 203);
+}
+.b{
+    margin-top: 8%;
+    /* height: 30px; */
+}
+.b button{
+    height: 100%;
+    width: 20%;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+}
+#blue{
+    height: 40px;
+    width: 15%;
+    border: 1px solid blue;
+}
+.grid{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding: 5%;
+}
+.grid div{
+    margin: 10px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+    width: 25%;
+}
+.grid div img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.grid p{
+    margin: 15px 10px;
+}
+.grid a{
+    margin: 15px 10px;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.flex div{
+    width: 25%;
+    margin: 15px;
+}
+.flex h2{
+    text-align: center;
+    margin: 5%;
+}
+.flex p{
+    width: 100%;
+}
+.flex div img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+}
+.brands{
+    display: flex;
+    justify-content: center;
+}
+.brands img{
+    width: 20%;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+}
+.crm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.crm-img{
+    display: flex;
+    justify-content: center;
+}
+.crm-img div{
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+    width: 25%;
+    margin: 2%;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: left;
+}
+.left img{
+    height: 60%;
+    width: 100%;
+    margin: 5% 0;
+}
+.left p{
+    width: 100%;
+}
+.left button{
+    width: 100px;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-image: url();
+}
+.background div{
+    width: 25%;
+    height: 450px;
+    margin: 15px;
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+    border-radius: 10px;
+}
+.background h1{
+    font-size: 20px;
+}
+.background p{
+    width: 100%;
+}
+.background div img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.background button, a{
+    margin: 10px;
+}
+.toy{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.toy button, h2, a{
+    margin: 15px;
+}
+.toy h2{
+    font-size: 20px;
+}
+.toy div{
+    width: 25%;
+    margin: 2%;
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+    height: 450px;
+}
+.toy img{
+    width: 100%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center h1, p{
+    width: 65%;
+    margin: 10px;
+}
+.center button{
+    height: 30px;
+    width: 10%;
+    color: white;
+    background-color: rgb(67, 67, 224);
+    border: 1px transparent;
+    border-radius: 2px;
+    margin: 15px;
+}
+.industry{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.industry img{
+    height: 70px;
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+    border-radius: 50%;
+    padding: 10px;
+}
+#white{
+    height: 40px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    margin: 3%;
+    width: 15%;
+}
+.z{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.z div{
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+    height: 150px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.cat{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+.kong{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-around;
+}
+.kong div{
+    box-shadow: 2px 2px 4px 2px rgb(178, 173, 173);
+    height: 200px;
+    width: 30%;
+    border-radius: 10px;
+}
+.flid{
+    display: flex;
+    margin: 10% 5%;
+    font-size: 12px;
+}
+.lex{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: left;
+    background-color: aqua;
+}
+.lex img{
+    width: 25%;
+}
+.lex div{
+    margin-bottom: 8%;
+}
+.social img{
+    margin: 4px;
+    width: 20px;
+}
+.rid{
+    display: flex;
+    width: 75%;
+}
+.sales{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+@media screen and (max-width:360px){
+    .video{
+        width: 100%;
+        /* text-align: left; */
+    }    
+    /* .header{
+        display: none;
+    } */
+    .hamburger span{
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        /* color: black; */
+        margin: 3px;
+    }
+    .header1{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .burger{
+        display: flex;
+    }
+    .header2 button{
+    }
+    .header2 :nth-child(odd){
+        display: none;
+    }
+    /* .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-color: aqua;
+    } */
+    .container{
+        width: 100vw;
+        /* overflow: hidden; */
+
+    }
+    .video h1{
+        font-size: 40px;
+    }
+    .vid{
+        background-image: linear-gradient(to bottom, blue,white);
+    }
+    .b{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b button{
+        /* margin: 5px; */
+        width: 100%;
+        padding: 10px 0;
+        height: 2rem;
+    }
+    .b button:nth-child(2){
+        margin-top: 5px;
+        background-color: white;
+        color: blue;
+        border: 1px solid blue;
+    }
+    #m{
+        width: 100vw;
+    }
+    .industry{
+        font-size: 10px;
+        display: grid;
+        grid-template-columns:repeat(2,auto);
+        gap: 10px;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .grid div{
+        width: 90%;
+        height: 30vh;
+    }
+}
